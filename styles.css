@@ -1,20 +1,95 @@
 body {
     background-color: #fffbf7;
-    text-align: center;
-
-}
-
-h1 {
+    font-family: 'Playfair Display', serif;
+     }
+  
+  h1 {
     color: #025157;
-}
-
-p {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  p {
     color: #8b8b8bcc;
-    font-family: Verdana;
+    font-family: 'Playfair Display', serif;
     font-size: 20px;
-}
-
-button {
+  }
+  
+  button {
     color: #fff;
     background-color: #025157;
-}
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .header {
+    text-align: auto;
+    margin: 40px 20px;
+    font-size: 0;
+    padding: 0 2%;
+
+  }
+  
+  li {
+    display: inline;
+    padding: 0 25px;
+  }
+  
+  .header > * {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+  }
+  
+  .logo {
+    width: 50%;
+  }
+  
+  .logo > img {
+    width: 15%;
+    margin-right: 150%;
+  }
+  
+  .navbar {
+    font-family: sans-serif;
+    height: 45px;
+    width: 70%;
+    text-align: left;
+    color: #025157;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .actions {
+    padding: 0 10px;
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .actions > * {
+    margin: 0 10px;
+  }
+
+  .actions > a {
+    color: #67b54b;
+  }
+
+  .actions > button {
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
